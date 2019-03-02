@@ -1,0 +1,1 @@
+FROM quay.io/openebs/cstor-pool:0.8.1

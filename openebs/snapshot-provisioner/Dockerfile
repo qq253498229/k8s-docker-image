@@ -1,0 +1,1 @@
+FROM quay.io/openebs/snapshot-provisioner:0.8.1

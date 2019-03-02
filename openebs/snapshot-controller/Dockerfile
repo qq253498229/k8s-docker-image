@@ -1,0 +1,1 @@
+FROM quay.io/openebs/snapshot-controller:0.8.1
