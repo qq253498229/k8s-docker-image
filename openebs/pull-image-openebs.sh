@@ -7,3 +7,7 @@ for image in ${images[@]}; do
   docker tag registry.cn-beijing.aliyuncs.com/k8s-docker-image/$image quay.io/openebs/$image
   docker rmi registry.cn-beijing.aliyuncs.com/k8s-docker-image/$image
 done
+
+docker pull registry.cn-beijing.aliyuncs.com/k8s-docker-image/node-disk-manager-amd64:v0.3.1
+docker tag registry.cn-beijing.aliyuncs.com/k8s-docker-image/node-disk-manager-amd64:v0.3.1 quay.io/openebs/node-disk-manager-amd64:v0.3.1
+docker rmi registry.cn-beijing.aliyuncs.com/k8s-docker-image/node-disk-manager-amd64:v0.3.1
