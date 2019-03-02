@@ -8,6 +8,6 @@ for image in ${images[@]}; do
   docker rmi registry.cn-beijing.aliyuncs.com/k8s-docker-image/$image
 done
 
-docker pull registry.cn-beijing.aliyuncs.com/k8s-docker-image/flannel
-docker tag registry.cn-beijing.aliyuncs.com/k8s-docker-image/flannel quay.io/coreos/flannel:v0.11.0-amd64
-docker rmi registry.cn-beijing.aliyuncs.com/k8s-docker-image/flannel
+docker pull registry.cn-beijing.aliyuncs.com/k8s-docker-image/flannel:v0.11.0-amd64 && \
+docker tag registry.cn-beijing.aliyuncs.com/k8s-docker-image/flannel:v0.11.0-amd64 quay.io/coreos/flannel:v0.11.0-amd64 && \
+docker rmi registry.cn-beijing.aliyuncs.com/k8s-docker-image/flannel:v0.11.0-amd64
