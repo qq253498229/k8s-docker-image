@@ -11,3 +11,7 @@ done
 docker pull registry.cn-beijing.aliyuncs.com/k8s-docker-image/flannel:v0.11.0-amd64 && \
 docker tag registry.cn-beijing.aliyuncs.com/k8s-docker-image/flannel:v0.11.0-amd64 quay.io/coreos/flannel:v0.11.0-amd64 && \
 docker rmi registry.cn-beijing.aliyuncs.com/k8s-docker-image/flannel:v0.11.0-amd64
+
+docker pull registry.cn-beijing.aliyuncs.com/k8s-docker-image/nginx-ingress-controller:0.22.0
+docker tag registry.cn-beijing.aliyuncs.com/k8s-docker-image/nginx-ingress-controller:0.22.0 quay.io/kubernetes-ingress-controller/nginx-ingress-controller:0.22.0
+docker rmi registry.cn-beijing.aliyuncs.com/k8s-docker-image/nginx-ingress-controller:0.22.0
