@@ -1,1 +1,1 @@
-FROM quay.io/openebs/m-exporter:0.8.1
+FROM quay.io/openebs/m-exporter:0.8.0

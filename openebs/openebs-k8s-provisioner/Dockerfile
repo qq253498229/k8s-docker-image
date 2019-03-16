@@ -1,1 +1,1 @@
-FROM quay.io/openebs/openebs-k8s-provisioner:0.8.1
+FROM quay.io/openebs/openebs-k8s-provisioner:0.8.0
