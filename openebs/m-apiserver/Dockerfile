@@ -1,1 +1,1 @@
-FROM quay.io/openebs/m-apiserver:0.8.1
+FROM quay.io/openebs/m-apiserver:0.8.0

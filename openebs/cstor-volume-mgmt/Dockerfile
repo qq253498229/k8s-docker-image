@@ -1,0 +1,1 @@
+FROM quay.io/openebs/cstor-volume-mgmt:0.8.1

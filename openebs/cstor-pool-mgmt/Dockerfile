@@ -1,1 +1,1 @@
-FROM quay.io/openebs/cstor-pool-mgmt:0.8.1
+FROM quay.io/openebs/cstor-pool-mgmt:0.8.0

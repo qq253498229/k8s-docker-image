@@ -1,1 +1,1 @@
-FROM quay.io/openebs/jiva:0.8.1
+FROM quay.io/openebs/jiva:0.8.0
